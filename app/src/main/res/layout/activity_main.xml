@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.proje.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text=" 5 movies to watch before you die"
+            android:textAllCaps="true"
+            android:textColor="#800080"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="1-The Lord of the Rings: The Fellowship of the Ring"
+            android:textColor="#660000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/film1" />
+
+        <Button
+            android:id="@+id/film1_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="detail1"
+            android:text="Detaıl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="2- Life is Beautiful"
+            android:textColor="#660000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/film3" />
+
+        <Button
+            android:id="@+id/film2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="detail2"
+            android:text="Detaıl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="3- The Pianist"
+            android:textColor="#660000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/film5" />
+
+        <Button
+            android:id="@+id/film3_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="detail3"
+            android:text="Detaıl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="4- The Green Mile"
+            android:textColor="#660000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/film4" />
+
+        <Button
+            android:id="@+id/film4_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="detail4"
+            android:text="Detaıl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="5- Forrest Gump"
+            android:textColor="#660000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/film2" />
+
+        <Button
+            android:id="@+id/film5_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="detail5"
+            android:text="Detaıl" />
+
+    </LinearLayout>
+</ScrollView>
+
